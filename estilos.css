@@ -1,0 +1,109 @@
+* {
+    box-sizing: content-box;
+}
+
+
+body {
+    margin: 30px;
+    color: black;
+    text-align: left;
+}
+
+/* <!--en el body no poner mas que esto, en tal caso poner div o alguna otra--> */
+
+div {
+    background-image: url(./IMAGE/Propiedad_Horizontal_y_Consorcios.jpg);
+    /* height: 100%; */
+    /* border: 2px solid grey; */
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgba(15, 1, 1, 0.945);
+    box-shadow: 0 0 20px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 7px solid orangered;
+}
+
+.header__logo {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    margin: auto;
+}
+
+nav {
+    background-color: black;
+    font: bold 30px arial;
+    color: red;
+    text-align: left;
+    margin: auto
+}
+
+.logo {
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    color: red;
+    /* height: 100vh; */
+}
+
+p {
+    color: black;
+    font-style: solid italic;
+    text-align: left;
+}
+
+
+h2 {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    /* text-align: right; */
+}
+
+
+.titulo1 {
+    color: orange;
+}
+
+.titulo2 {
+    color: orange;
+}
+
+.titulo3 {
+    color: orange;
+}
+
+.titulo4 {
+    color: orange;
+}
+
+
+.Consultas {
+    color: orange;
+    font-family: Arial, sans-serif;
+}
+
+.Redes {
+    color: blue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+table {
+    border: 2px solid midnightblue
+}
+
+th {
+    background-color: cadetblue;
+    border: 4px solid black;
+}
+
+td {
+    border: 3px solid black;
+    background-color: grey;
+}

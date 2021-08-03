@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sde</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <a href="./index.html" class="header__logo">
+                <img src="IMAGE/sde Logo.jpg" alt="LOGO">
+                <h1 class="logo">Consorcios</h1>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="PAGE/Quienes somos.html">Quines somos</a></li>
+                    <li><a href="PAGE/Servicios.html">Servicios</a></li>
+                    <li><a href="PAGE/Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2 class="titulo1">Quienes somos</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, amet.</p>
+            <br>
+            <h4>Objetivo</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, amet.</p>
+        </main>
+        <!--ok-->
+        <h2 class="titulo2">Servicios</h2>
+        <p>construcción en Buenos Aires Argentina</p>
+        <table border="10" cellspacing="7" cellpadding="20">
+            <tr>
+                <th>Servicios</th>
+                <th>Caracteristicas</th>
+                <th>Cobertura</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Servicio 1</td>
+                    <td>
+                        <ul>
+                            <li>Caracteristica 1</li>
+                            <li>Caracteristica 2</li>
+                            <li>Caracteristica 3</li>
+                        </ul>
+                    </td>
+                    <td rowspan="3">
+                        <ol>
+                            <li>Capitl federal</li>
+                            <li>Zona norte</li>
+                            <li>Zona oeste</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Servicio 2</td>
+                    <td>
+                        <ul>
+                            <li>Caracteristica 1</li>
+                            <li>Caracteristica 2</li>
+                            <li>Caracteristica 3</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Servicio 3</td>
+                    <td>
+                        <ul>
+                            <li>Caracteristica 1</li>
+                            <li>Caracteristica 2</li>
+                            <li>Caracteristica 3</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <main>
+        <h2 class="titulo4">Contacto</h2>
+        <fieldset>
+            <ul>
+                <li>Ubicacion: Argentina991</li>
+                <li>Telefono: 1234567</li>
+                <li>Email: sde@sde.com</li>
+                <li>Horarios: 9a18hs </li>
+            </ul>
+        </fieldset>
+        <!--ok-->
+
+        <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+            <h3 class="Consultas">Consultas</h3>
+            <ul>
+                <li>Nombre <input type="text" required> <br></li>
+                <li>Apellido <input type="text" required> <br></li>
+                <li>Celular <input type="text" required> <br></li>
+                <li>E-mail <input type="email" required> <br></li>
+            </ul>
+            <input type="submit">
+            <input type="reset" value="Borrar"><br>
+        </form>
+        <footer>
+            <p><strong>Ubicacion</strong></p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3288.858988632642!2d-58.508894318332906!3d-34.48110129842899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1624307457255!5m2!1ses!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <p class="Redes"><strong>Redes sociales</strong></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/N_yuPf1ITjE?start=21"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </footer>
+    </main>
+</body>
+
+</html>
